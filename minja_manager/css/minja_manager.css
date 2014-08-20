@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Gudea', sans-serif;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+a, a:hover, a:active, a:visited, a:link {
+  color: #777;
+  text-decoration: none;
+}
+.header {
+  background: #000;
+  padding: 15px 50px;
+  color: #fff;
+  overflow: auto;
+}
+.logo {
+  opacity: 1;
+  float: left;
+  font-size: 32px;
+  line-height: 32px;
+}
+.tree_icon {
+  width: 20px;
+}
+.navigation {
+  float: right;
+  font-size: 16px;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+}
+.navigation ul li {
+  display: inline-block;
+  padding-right: 25px;
+}
+.navigation a, .navigation a:hover, .navigation a:active, .navigation a:visited, .navigation a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0px auto;
+  padding: 25px 0;
+}
+.add_new, .add_new_lesson {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  background: #33CC33;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  height: 30px;
+  min-width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 24px;
+}
+.add_new_lesson {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+a.add_new, a.add_new:hover, a.add_new:active, a.add_new:visited, a.add_new:link, a.add_new_lesson, a.add_new_lesson:hover, a.add_new_lesson:active, a.add_new_lesson:visited, a.add_new_lesson:link {
+  color: #000;
+  text-decoration: none;
+}
+#new, #edit, #delete {
+  display: none;
+  width: 600px;
+}
+input, textarea, select {
+  width: 100%;
+}
+input, select {
+  height: 25px;
+  line-height: 25px;
+}
+.table {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+}
+.fullTable.table {
+  width: 100%;
+  border: 1px solid #bbb;
+  margin-bottom: 50px;
+}
+.fullTable .row {
+  cursor: pointer;
+}
+.fullTable .row.headers {
+  font-weight: bold;
+  color: #fff;
+  background: #bbb;
+}
+.fullTable .row:hover {
+  background: #eee;
+}
+.fullTable .cell {
+  padding: 5px 10px;
+  border-top: 1px solid #bbb;
+}
+#new .table, #new .row:hover, #new .cell {
+  border: none;
+  background: none;
+  cursor: auto;
+}
+.green {
+  color: #33CC33; 
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.body {
+  display: none;
+  border: 1px solid #000;
+  margin: 25px;
+  padding: 25px;
+}

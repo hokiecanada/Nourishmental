@@ -1,0 +1,296 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Gudea', sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  color: #fff;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.logo {
+  opacity: 1;
+  float: left;
+  font-size: 32px;
+  line-height: 32px;
+}
+.tree_icon {
+  width: 20px;
+}
+.navigation {
+  float: right;
+  font-size: 16px;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+}
+.navigation ul li {
+  display: inline-block;
+  padding-right: 25px;
+}
+.navigation_mobile {
+  
+}
+.underlay {
+  width: 100%;
+  z-index: -2;
+  overflow: hidden;
+  text-align: center;
+  background-color: #000;
+  opacity: 0.9;
+  min-height: 100%;
+  line-height: 0;
+}
+.underlay video {
+  position: relative;
+  left: 100%;
+  margin-left: -200%;
+  z-index: -1;
+  opacity: 0.1;
+}
+.overlay {
+  width: 60%;
+  position: absolute;
+  z-index: 0;
+  color: #fff;
+  padding-left: 20%;
+  min-height: inherit;
+}
+.overlay .motto {
+  font-size: 55px;
+  line-height: 55px;
+}
+.signup {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.signup input[type=text] {
+  height: 30px;
+  padding: 10px;
+  width: 25%;
+  margin-right: 5px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 12px;
+}
+.signup button {
+  background: #33CC33;
+  color: #000;
+  height: 30px;
+  width: 20%;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 12px;
+}
+.cta {
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  padding-top: 25px;
+  line-height: 0;
+  opacity: 0;
+  overflow: auto;
+}
+button {
+  border-radius: 5px;
+  color: #000;
+  font-size: 28px;
+  padding: 15px;
+  border: none;
+  background: #33CC33;
+}
+button.white_on_black {
+  color: #fff;
+  background: #000;
+}
+button.green_on_black {
+  color: #33CC33;
+  background: #000;
+}
+button.grey_on_black {
+  color: #999;
+  background: #000;
+}
+button.black_on_white {
+  color: #000;
+  background: #fff;
+}
+button.green_on_white {
+  color: #33CC33;
+  background: #fff;
+}
+button.grey_on_white {
+  color: #999;
+  background: #fff;
+}
+button.black_on_grey {
+  color: #000;
+  background: #999;
+}
+button.white_on_grey {
+  color: #fff;
+  background: #999;
+}
+button.green_on_grey {
+  color: #33CC33;
+  background: #999;
+}
+button.black_on_green {
+  color: #000;
+  background: #33CC33;
+}
+button.white_on_green {
+  color: #fff;
+  background: #33CC33;
+}
+button.grey_on_green {
+  color: #999;
+  background: #33CC33;
+}
+.cta .arrow {
+  width: 100px;
+  padding-top: 40px;
+  opacity: 0.4;
+}
+.section2 {
+  width: 90%;
+  text-align: center;
+  clear:both;
+}
+.section2 p {
+  font-size: 24px;
+}
+footer {
+  padding: 0;
+  color: #fff;
+  /*background: #000;*/
+  max-height: 200px;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.7);
+}
+footer .copyright {
+  font-size: 12px;
+  text-align: center;
+  padding: 25px;
+}
+.mind {
+  text-align: left;
+  opacity: 0;
+}
+.body {
+  text-align: right;
+  padding-top: 15px;
+  opacity: 0;
+}
+.life {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+  opacity: 0;
+}
+.green {
+  color: #33CC33; 
+}
+.main_content {
+  padding: 25px 0;
+}
+.container {
+  width: 750px;
+  margin: 0px auto;
+  padding: 25px 0;
+}
+h1.slide_title {
+  text-align: center;
+}
+div.white_slide {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+div.grey_slide {
+  width: 100%;
+  background-color: #999;
+  color: #fff;
+}
+div.green_slide {
+  width: 100%;
+  background-color: #33CC33;
+  color: #fff;
+}
+div.black_slide {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+@media (max-width: 900px) {
+  .overlay .motto {
+    font-size: 45px;
+  }
+  .life {
+    font-size: 55px;
+  }
+  .container {
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .overlay {
+    width: 70%;
+    padding-left: 15%;
+  }
+  .overlay .motto {
+    font-size: 35px;
+  }
+  .life {
+    font-size: 45px;
+  }
+  .cta {
+    width: 80%;
+  }
+  .cta .arrow {
+    width: 75px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .overlay {
+    width: 80%;
+    padding-left: 10%;
+  }
+  .overlay .motto {
+    font-size: 30px;
+  }
+  .life {
+    font-size: 40px;
+  }
+  .cta {
+    width: 85%;
+  }
+  .cta button {
+    font-size: 22px;
+  }
+  .cta .arrow {
+    width: 75px;
+  }
+  .navigation {
+    display: none;
+  }
+}
